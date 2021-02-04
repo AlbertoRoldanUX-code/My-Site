@@ -70,9 +70,6 @@ p {
 }
 
 /*****************CLASS SELECTORS*****************/
-.a-programmer {
-  color: white;
-}
 
 .bottom-container {
   background-color: #343a40;
@@ -194,10 +191,6 @@ p {
   padding: 80px 0;
 }
 
-.pro {
-  font-weight: 900;
-}
-
 .profile-pic {
   background-color: #E5E5E5;
   border-radius: 50%;
@@ -219,6 +212,10 @@ p {
 
 .skill-2 {
   padding-top: 100px;
+}
+
+.subheading {
+  color: white;
 }
 
 .UX-Process {
