@@ -4,7 +4,7 @@
 (function($) {
   $(function() {
     $('nav ul li a:not(:only-child)').click(function(e) {
-      $(this).siblings('.nav-dropdown').toggle();
+      $(this).siblings('.nav-dropdown').slideToggle();
       $('.dropdown').not($(this).siblings()).hide();
       e.stopPropagation();
     });
