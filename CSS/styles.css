@@ -1,24 +1,25 @@
 /*****************TAG SELECTORS*****************/
+
 * {
   box-sizing: border-box;
 }
 
 a {
-  color: #11999E;
+  color: #11999e;
   font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
-  color: #66BFBF;
+  color: #66bfbf;
 }
 
 body {
-  color: #40514E;
+  color: #40514e;
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 button {
@@ -26,22 +27,26 @@ button {
 }
 
 hr {
-  border: dotted #EAF6F6 6px;
+  border: dotted #eaf6f6 6px;
   border-bottom: none;
   border-top-style: dotted;
   width: 4%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 h1 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
   font-size: 562.5%;
   margin: 50px auto 0 auto;
 }
 
 h2 {
-  color: #66BFBF;
-  font-family: 'Montserrat', sans-serif;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   margin: 0.83em;
@@ -49,10 +54,10 @@ h2 {
 }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: normal;
-  color: #11999E;
+  color: #11999e;
   padding-bottom: 15px;
 }
 
@@ -77,17 +82,17 @@ p {
 }
 
 .btn {
-  background: #11CDD4;
-  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
-  background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -webkit-gradient(to bottom, #11cdd4, #11999e);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
-  color: #FFFFFF;
-  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 100;
   -webkit-box-shadow: 1px 1px 20px 0 #000000;
@@ -107,14 +112,14 @@ p {
 }
 
 .btn:hover {
-  color: #FFFFFF;
-  border: solid #337FED 1px;
-  background: #30E3CB;
-  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
-  background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+  color: #ffffff;
+  border: solid #337fed 1px;
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -webkit-gradient(to bottom, #30e3cb, #2bc4ad);
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   border-radius: 8px;
@@ -156,18 +161,18 @@ p {
 }
 
 .Copyright {
-  color: #EAF6F6;
+  color: #eaf6f6;
   font-size: 0.75rem;
   padding: 20px 0;
 }
 
 .footer-link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 10px 20px;
 }
 
 .footer-link:hover {
-  color: #EAF6F6;
+  color: #eaf6f6;
 }
 
 .img {
@@ -184,7 +189,7 @@ p {
 
 .name {
   color: white;
-  font-family: 'Courgette', cursive;
+  font-family: "Courgette", cursive;
 }
 
 .padding-section {
@@ -192,7 +197,7 @@ p {
 }
 
 .profile-pic {
-  background-color: #E5E5E5;
+  background-color: #e5e5e5;
   border-radius: 50%;
   max-width: 200px;
 }
@@ -233,16 +238,17 @@ p {
 
 /*****************ID SELECTORS*****************/
 #Design {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
 }
 
 #Testing {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
 }
 
 #top-container {
-  background-color: #EAF6F6;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("Computer.jpg");
+  background-color: #eaf6f6;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("Computer.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -251,7 +257,7 @@ p {
 }
 
 #top-container-process {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -259,11 +265,11 @@ p {
 }
 
 #User-research {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
 }
 
 #What-I-learned {
-  background-color: #EAF6F6;
+  background-color: #eaf6f6;
 }
 
 /*****************NAV BAR*****************/
@@ -328,7 +334,7 @@ nav ul li a:visited:hover {
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
   padding-left: 4px;
-  content: ' ▾';
+  content: " ▾";
 }
 
 nav ul li ul li {
@@ -424,7 +430,7 @@ nav ul li .btn {
   background: #ffffff;
   position: absolute;
   display: block;
-  content: '';
+  content: "";
   transition: all 300ms ease-in-out;
 }
 
@@ -440,7 +446,8 @@ nav ul li .btn {
   background-color: transparent;
 }
 
-#nav-toggle.active span:before, #nav-toggle.active span:after {
+#nav-toggle.active span:before,
+#nav-toggle.active span:after {
   top: 0;
 }
 
@@ -453,13 +460,13 @@ nav ul li .btn {
 }
 
 /*****************RESPONSIVENESS*****************/
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .container {
     width: 100%;
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   h1 {
     font-size: 45px;
   }
@@ -473,7 +480,12 @@ nav ul li .btn {
     font-size: 25px;
   }
 
-  .column-16, .column-20, .column-33, .column-50, .column-66, .column-16 {
+  .column-16,
+  .column-20,
+  .column-33,
+  .column-50,
+  .column-66,
+  .column-16 {
     width: 100%;
   }
 
@@ -510,7 +522,7 @@ nav ul li .btn {
     width: 90%;
   }
 
-  #Contact-me div {
+  #contact-me div {
     margin-bottom: 40px;
   }
 }
