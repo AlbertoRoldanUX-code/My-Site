@@ -64,7 +64,7 @@
               </ul>
             </li>
             <li>
-              <a class="btn" href="mailto:a-f-r@hotmail.es">Contact</a>
+              <a class="btn" href="#contact-me">Contact</a>
             </li>
           </ul>
         </nav>
@@ -269,14 +269,37 @@
       </div>
     </div>
 
-    <div id="Contact-me" class="padding-section">
-      <h2>Get In Touch</h2>
-      <h3>Need help with your project?</h3>
+    <div id="contact-me" class="padding-section">
+      <h2>Contact</h2>
       <p class="contact-message">
+        Need help with your project? <br />
         Tell me what you need and let's work together.
       </p>
-      <div class="">
-        <a class="btn" href="mailto:a-f-r@hotmail.es">CONTACT ME</a>
+      <div id="contact-form">
+        <form
+          action="/success"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+        >
+          <label for="name">Name</label>
+          <br />
+          <input type="text" name="name" />
+          <br />
+
+          <label for="email">Email</label>
+          <br />
+          <input type="email" name="email" />
+          <br />
+
+          <label for="message">Message</label>
+          <br />
+          <textarea name="message"></textarea>
+          <br />
+          <div data-netlify-recaptcha="true"></div>
+          <button id="btn-form" type="submit" class="btn">Send</button>
+        </form>
       </div>
     </div>
 
