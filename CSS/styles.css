@@ -458,6 +458,10 @@ p {
 }
 
 /*****************ID SELECTORS*****************/
+#btn-form {
+  margin-top: 20px;
+}
+
 #Design {
   background-color: #eaf6f6;
 }
