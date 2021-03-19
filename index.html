@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alberto Roldán</title>
+
     <link
       href="https://fonts.googleapis.com/css2?family=Courgette&family=Merriweather&family=Montserrat&display=swap"
       rel="stylesheet"
@@ -93,11 +94,6 @@
       <h2>My Skills.</h2>
 
       <div>
-        <img
-          class="img"
-          src="https://media2.giphy.com/media/MaI6BylfjAkDkfk4OC/200w.webp?cid=ecf05e47tba3ig969f2167qigy38rgi8syl5hqvw9byl1050&rid=200w.webp"
-          alt="Web development"
-        />
         <h3>Web Development</h3>
         <p>
           I create fully-fledged websites and apps. <br />Check out
@@ -124,13 +120,35 @@
     <hr />
 
     <div id="contact-me" class="padding-section">
-      <h2>Get In Touch</h2>
-      <h3>Need help with your project?</h3>
+      <h2>Contact</h2>
       <p class="contact-message">
+        Need help with your project? <br />
         Tell me what you need and let's work together.
       </p>
-      <div class="">
-        <a class="btn" href="mailto:a-f-r@hotmail.es">CONTACT ME</a>
+      <div id="contact-form">
+        <form
+          action="/success"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+        >
+          <label for="name">Name</label>
+          <br />
+          <input type="text" name="name" />
+          <br />
+
+          <label for="email">Email</label>
+          <br />
+          <input type="email" name="email" />
+          <br />
+
+          <label for="message">Message</label>
+          <br />
+          <textarea name="message"></textarea>
+          <br />
+
+          <button type="submit" class="btn">Send</button>
+        </form>
       </div>
     </div>
 
