@@ -417,27 +417,18 @@ p {
   font-family: "Courgette", cursive;
 }
 
-.padding-section {
+.padding-top-bottom {
   padding: 80px 0;
+}
+
+.padding-left-right {
+  padding: 0 20px;
 }
 
 .profile-pic {
   background-color: #e5e5e5;
   border-radius: 50%;
   max-width: 200px;
-}
-
-.row {
-  margin: auto;
-  padding-top: 10px;
-  text-align: left;
-  width: 85%;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
 }
 
 .subheading {
