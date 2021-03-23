@@ -437,10 +437,6 @@ p {
   display: table;
 }
 
-.skill-2 {
-  padding-top: 100px;
-}
-
 .subheading {
   color: white;
 }
@@ -538,10 +534,6 @@ p {
 
   .padding-section {
     padding: 30px 0;
-  }
-
-  .skill-2 {
-    padding-top: 40px;
   }
 
   .top-container {
