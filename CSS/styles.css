@@ -560,6 +560,10 @@ p {
 
 /* Tiles */
 
+.max-height {
+  max-height: 170px;
+}
+
 .tiles {
   display: -moz-flex;
   display: -webkit-flex;
