@@ -251,11 +251,10 @@ h2 {
 }
 
 h3 {
+  color: #66bfbf;
   font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   font-weight: normal;
-  color: #11999e;
-  padding-bottom: 15px;
 }
 
 h4 {
@@ -457,7 +456,7 @@ p {
 
 #contact {
   height: 80vn;
-  padding: 10rem 2rem;
+  padding: 5rem 2rem;
 }
 
 /*****************RESPONSIVENESS*****************/
