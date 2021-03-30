@@ -23,7 +23,7 @@
 }
 
 .nav-container {
-  max-width: 1000px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -429,12 +429,9 @@ p {
   margin-top: 20px;
 }
 
-#Design {
-  background-color: #eaf6f6;
-}
-
-#Testing {
-  background-color: #eaf6f6;
+#portfolio {
+  max-width: 1280px;
+  margin: auto;
 }
 
 #top-container {
