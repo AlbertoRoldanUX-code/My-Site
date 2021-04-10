@@ -781,11 +781,6 @@ body.is-touch .tiles article .content {
 /* UX Design */
 #top-container-process {
   background-color: #eaf6f6;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(Computer.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
