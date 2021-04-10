@@ -334,12 +334,6 @@ p {
   padding: 5px;
 }
 
-.column-33 {
-  float: left;
-  width: 33.33%;
-  padding: 5px;
-}
-
 .column-66 {
   float: left;
   width: 66%;
@@ -447,65 +441,6 @@ p {
 #contact {
   height: 80vn;
   padding: 5rem 2rem;
-}
-
-/*****************RESPONSIVENESS*****************/
-@media screen and (max-width: 800px) {
-  .container {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  h1 {
-    font-size: 45px;
-  }
-
-  h2 {
-    font-size: 35px;
-    min-height: 0;
-  }
-
-  h3 {
-    font-size: 25px;
-  }
-
-  .column-16,
-  .column-20,
-  .column-33,
-  .column-50,
-  .column-66,
-  .column-16 {
-    width: 100%;
-  }
-
-  .footer-link {
-    display: inline-block;
-  }
-
-  .img {
-    max-width: 200px;
-  }
-
-  .image {
-    height: 170px;
-  }
-
-  .top-container {
-    padding: 90px 0;
-  }
-
-  .UX-Process {
-    display: none;
-  }
-
-  .UX-Process-mobile {
-    display: block;
-  }
-
-  #contact div {
-    margin-bottom: 40px;
-  }
 }
 
 /* Tiles */
@@ -786,24 +721,93 @@ body.is-touch .tiles article .content {
 
 #user-research {
   background-color: #eaf6f6;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
 }
 
 .row {
+  display: flex;
+  justify-content: center;
   max-width: 1280px;
-  margin: auto;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .column-50 {
   float: left;
   width: 50%;
-  padding: 5px;
 }
 
 .padding-section {
-  padding: 100px 0;
+  padding: 50px 0;
+}
+
+.width-35 {
+  width: 35%;
+}
+
+.column-33 {
+  float: left;
+  width: 33.3%;
+  padding: 5px;
+}
+
+.ch55 {
+  margin: auto;
+  max-width: 55ch;
+}
+
+/*****************RESPONSIVENESS*****************/
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+    min-height: 0;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .column-16,
+  .column-20,
+  .column-33,
+  .column-50,
+  .column-66,
+  .column-16 {
+    width: 100%;
+  }
+
+  .footer-link {
+    display: inline-block;
+  }
+
+  .img {
+    max-width: 200px;
+  }
+
+  .image {
+    height: 170px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .top-container {
+    padding: 90px 0;
+  }
+
+  .UX-Process {
+    display: none;
+  }
+
+  .UX-Process-mobile {
+    display: block;
+  }
+
+  #contact div {
+    margin-bottom: 40px;
+  }
 }
