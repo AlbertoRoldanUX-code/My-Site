@@ -797,6 +797,11 @@ body.is-touch .tiles article .content {
   width: 100%;
 }
 
+.row {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
 .column-50 {
   float: left;
   width: 50%;
