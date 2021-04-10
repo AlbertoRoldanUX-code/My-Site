@@ -788,3 +788,12 @@ body.is-touch .tiles article .content {
   width: 100%;
   height: 100vh;
 }
+
+#overview {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
