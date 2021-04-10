@@ -198,10 +198,6 @@ label {
 
 /*****************TAG SELECTORS*****************/
 
-* {
-  box-sizing: border-box;
-}
-
 a {
   color: #11999e;
   font-weight: bold;
@@ -799,11 +795,15 @@ body.is-touch .tiles article .content {
 
 .row {
   max-width: 1280px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .column-50 {
   float: left;
   width: 50%;
   padding: 5px;
+}
+
+.padding-section {
+  padding: 100px 0;
 }
