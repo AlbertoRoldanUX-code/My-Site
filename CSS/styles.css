@@ -740,6 +740,12 @@ body.is-touch .tiles article .content {
   padding: 5px;
 }
 
+.column-40 {
+  float: left;
+  width: 33.3%;
+  padding: 20px;
+}
+
 .column-50 {
   float: left;
   width: 50%;
@@ -779,6 +785,7 @@ body.is-touch .tiles article .content {
   .column-20,
   .column-22,
   .column-33,
+  .column-40,
   .column-50,
   .column-66,
   .column-16 {
