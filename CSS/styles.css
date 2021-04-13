@@ -1,3 +1,10 @@
+h1 {
+  color: white;
+  font-family: "Courgette", cursive;
+  font-size: 562.5%;
+  margin: 50px auto 0 auto;
+}
+
 /* **********NAV BAR*********** */
 .nav-bar {
   background: #343a40;
@@ -231,13 +238,6 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
-  color: #66bfbf;
-  font-family: "Montserrat", sans-serif;
-  font-size: 562.5%;
-  margin: 50px auto 0 auto;
-}
-
 h2 {
   color: #66bfbf;
   font-family: "Montserrat", sans-serif;
@@ -351,11 +351,6 @@ p {
 
 .margin-paragraph {
   margin: 40px auto 60px;
-}
-
-.name {
-  color: white;
-  font-family: "Courgette", cursive;
 }
 
 .padding-top-bottom {
