@@ -1,14 +1,21 @@
 "use strict";
 
-(function ($) {
-  $(function () {
-    $("#nav-toggle").click(function () {
-      $("nav ul").slideToggle();
-    });
-    $("#nav-toggle").click(function () {
-      this.classList.toggle("active");
-    });
-  });
-})(jQuery);
+//Elements:
+const menu = $("#nav-toggle");
+const dropdown = $("nav ul");
+const links = $(".nav-list");
 
-document.getElementById("year").innerHTML = new Date().getFullYear();
+//Opens dropdown when clicking the menu
+menu.click(function () {
+  dropdown.slideToggle();
+  this.classList.toggle("active");
+});
+
+//Closes dropdown when clicking an option
+links.click(function () {
+  menu[0].classList.toggle("active");
+  dropdown.slideUp();
+});
+
+//Make year dynamic
+$("#year").html(new Date().getFullYear());
