@@ -17,5 +17,5 @@ links.click(function () {
   dropdown.slideUp();
 });
 
-//Make year dynamic
+//Makes year dynamic
 $("#year").html(new Date().getFullYear());
