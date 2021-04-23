@@ -378,6 +378,15 @@ label {
   display: none;
 }
 
+/* Revealing elements on scroll */
+.section {
+  transition: transform 1s, opacity 1s;
+}
+
+.section-hidden {
+  opacity: 0;
+  transform: translateY(1rem);
+}
 /*****************ID SELECTORS*****************/
 
 #btn-form {
