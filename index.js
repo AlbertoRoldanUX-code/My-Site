@@ -28,7 +28,6 @@ $("#year").html(new Date().getFullYear());
 //2.3º Create callback function
 const revealSection = function (entries, observer) {
   const [entry] = entries;
-  console.log(entry);
 
   //Remove class when target is intersecting
   if (!entry.isIntersecting) return;
@@ -62,22 +61,20 @@ allSections.forEach(function (section) {
 //5º Reference real image in a data-src attribute.
 //6º Select all images which have the property of data-src
 const imgTargets = document.querySelectorAll("img[data-src]");
-console.log(imgTargets);
 
 //7º Create callback function
 const loadImg = function (entries, observer) {
-  const [entry] = entries;
-
-  //If they are not intersecting, we want an early return
-  if (!entry.isIntersecting) return;
-  //8º Replace src attribute for data-src
-  entry.target.src = entry.target.dataset.src;
-  //9ºRemove lazy-img class.
-  entry.target.addEventListener("load", function () {
-    entry.target.classList.remove("lazy-img");
+  entries.forEach((entry) => {
+    //If they are not intersecting, we want an early return
+    if (!entry.isIntersecting) return;
+    //8º Replace src attribute for data-src
+    entry.target.src = entry.target.dataset.src;
+    //9ºRemove lazy-img class.
+    entry.target.addEventListener("load", function () {
+      entry.target.classList.remove("lazy-img");
+    });
+    observer.unobserve(entry.target);
   });
-
-  observer.unobserve(entry.target);
 };
 
 //10º Create image observer

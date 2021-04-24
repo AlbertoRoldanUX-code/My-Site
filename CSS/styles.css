@@ -380,6 +380,11 @@ label {
   opacity: 0;
   transform: translateY(1rem);
 }
+
+/* Blurred images */
+.lazy-img {
+  filter: blur(20px);
+}
 /*****************ID SELECTORS*****************/
 
 #btn-form {
