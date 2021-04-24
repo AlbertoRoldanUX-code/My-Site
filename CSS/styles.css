@@ -405,10 +405,6 @@ label {
   height: 100vh;
 
   /* Fade in background image */
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   -webkit-animation: myfirst 3s; /* Chrome, Safari, Opera */
   animation: myfirst 3s;
 }
