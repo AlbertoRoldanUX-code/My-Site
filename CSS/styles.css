@@ -363,19 +363,12 @@ label {
 .profile-pic {
   background-color: #e5e5e5;
   border-radius: 50%;
-  max-width: 200px;
+  height: 200px;
+  width: 200px;
 }
 
 .subheading {
   color: white;
-}
-
-.UX-Process {
-  display: block;
-}
-
-.UX-Process-mobile {
-  display: none;
 }
 
 /* Revealing elements on scroll */
@@ -796,6 +789,13 @@ body.is-touch .tiles article .content {
   max-width: 55ch;
 }
 
+.UX-Process {
+  display: block;
+}
+
+.UX-Process-mobile {
+  display: none;
+}
 /*****************RESPONSIVENESS*****************/
 @media screen and (max-width: 500px) {
   h1 {
