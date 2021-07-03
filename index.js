@@ -54,7 +54,7 @@ allSections.forEach(function (section) {
 
 ////////////////////////////////////////////////////////
 //Implement lazy loading images strategy
-//1º Get placeholders images (of around 15 kilobytes) at reduceimages.com.
+//1º Get placeholders images (of around 15 kilobytes) at reduceimages.com. (10% dimension and 1% quality)
 //2º Reference placeholder image in the src of img.
 //3º Create class of lazy-img {filter: blur(20px)}
 //4º Give the images the class of lazy-img
