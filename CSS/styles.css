@@ -11,7 +11,7 @@ a:hover {
 }
 
 body {
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   color: #40514e;
   margin: 0;
   padding: 0;
@@ -32,16 +32,10 @@ hr {
 html {
   scroll-behavior: smooth;
 }
-h1 {
-  color: white;
-  font-family: "Courgette", cursive;
-  font-size: 562.5%;
-  margin: 50px auto 0 auto;
-}
 
 h2 {
   color: #66bfbf;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
   margin: 0.83em;
@@ -49,7 +43,7 @@ h2 {
 
 h3 {
   color: #66bfbf;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: normal;
 }
@@ -135,7 +129,7 @@ nav ul li a:visited:hover {
 nav ul li a:not(:only-child):after,
 nav ul li a:visited:not(:only-child):after {
   padding-left: 4px;
-  content: " ▾";
+  content: ' ▾';
 }
 
 nav ul li .btn {
@@ -207,7 +201,7 @@ nav ul li .btn {
   background: #ffffff;
   position: absolute;
   display: block;
-  content: "";
+  content: '';
   transition: all 300ms ease-in-out;
 }
 
@@ -240,8 +234,8 @@ form textarea {
   min-height: 14em;
 }
 
-input[type="text"],
-input[type="email"],
+input[type='text'],
+input[type='email'],
 textarea {
   width: 100%;
   padding: 12px 20px;
@@ -250,7 +244,7 @@ textarea {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: "Merriweather", serif;
+  font-family: 'Merriweather', serif;
   font-size: 19px;
   font-weight: 300;
   color: rgb(43, 43, 43);
@@ -283,7 +277,7 @@ label {
   -moz-border-radius: 8px;
   border-radius: 8px;
   color: #ffffff;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: 100;
   -webkit-box-shadow: 1px 1px 1px 0 #000000;
@@ -328,7 +322,7 @@ label {
 }
 
 .footer-link {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin: 10px 20px;
 }
 
@@ -367,7 +361,11 @@ label {
   width: 200px;
 }
 
-.subheading {
+.blue {
+  color: #11cdd4;
+}
+
+.white {
   color: white;
 }
 
@@ -393,7 +391,7 @@ label {
 
 #top-container {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("Computer.jpg");
+    url('Computer.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,7 +500,7 @@ label {
   -webkit-transition: background-color 0.5s ease, opacity 0.5s ease;
   -ms-transition: background-color 0.5s ease, opacity 0.5s ease;
   transition: background-color 0.5s ease, opacity 0.5s ease;
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -520,7 +518,7 @@ label {
   -webkit-transition: opacity 0.5s ease;
   -ms-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -799,10 +797,6 @@ body.is-touch .tiles article .content {
 }
 /*****************RESPONSIVENESS*****************/
 @media screen and (max-width: 500px) {
-  h1 {
-    font-size: 45px;
-  }
-
   h2 {
     font-size: 35px;
     min-height: 0;
