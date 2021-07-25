@@ -361,11 +361,11 @@ label {
   width: 200px;
 }
 
-.blue {
+.highlight {
   color: #11cdd4;
 }
 
-.white {
+.heading {
   color: white;
 }
 
@@ -804,6 +804,11 @@ body.is-touch .tiles article .content {
 
   h3 {
     font-size: 25px;
+  }
+
+  .heading {
+    font-size: 25px;
+    margin: 0 0 20px 0;
   }
 
   .column-16,
