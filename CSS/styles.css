@@ -297,10 +297,11 @@ nav ul li .btn {
   list-style-type: none;
   text-align: left;
   padding: 0;
-  margin: 0 25px;
+  margin: 0 60px;
 }
 .ul li {
   font-size: 18px;
+  margin: 8px 0;
 }
 
 @media screen and (max-width: 500px) {
