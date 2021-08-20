@@ -272,8 +272,7 @@ nav ul li .btn {
   flex-direction: column;
   height: 100vh;
   justify-content: center;
-  padding: 100px 0;
-  margin: 50px 0;
+  padding: 200px 0;
   width: 100%;
 }
 
@@ -285,8 +284,9 @@ nav ul li .btn {
   margin-top: 130px;
 }
 
-.margin-paragraph {
-  margin: 30px auto 60px;
+.paragraph-ch {
+  padding: 30px auto 60px;
+  max-width: 60ch;
 }
 
 .skills {
@@ -406,7 +406,7 @@ hr {
 #portfolio {
   max-width: 1280px;
   margin: auto;
-  padding: 5rem 2rem;
+  padding: 130px 2rem 80px;
 }
 .padding-left-right {
   padding: 0 20px;
@@ -668,7 +668,11 @@ body.is-touch .tiles article .content {
 /*****************FORM*****************/
 #contact {
   height: 80vn;
-  padding: 5rem 2rem;
+  padding: 70px 2rem;
+}
+.paragraph-form {
+  padding: 30px auto 60px;
+  max-width: 60ch;
 }
 
 form textarea {
