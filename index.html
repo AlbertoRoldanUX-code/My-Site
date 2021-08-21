@@ -64,12 +64,11 @@
         <a class="btn" href="#about">See more &DownArrow;</a>
       </section>
 
-      <section id="about" class="section">
+      <section id="about">
         <img
           class="profile-pic lazy-img"
-          src="images/circle-cropped-lazy.jpg"
+          src="images/circle-cropped.png"
           alt="Alberto Roldán"
-          data-src="images/circle-cropped.png"
         />
         <h2>Hello</h2>
         <p class="paragraph-ch">
@@ -108,135 +107,161 @@
         </div>
       </section>
 
-      <section id="portfolio" class="padding-left-right section">
+      <section id="portfolio">
         <h2>Work</h2>
-        <div class="tiles">
-          <article class="style1">
-            <span class="image">
-              <img
-                class="max-height lazy-img"
-                src="images/pic01-lazy.jpg"
-                alt=""
-                data-src="images/pic01.png"
-              />
-            </span>
-            <a
-              href="https://alberto-to-do-list-v2.netlify.app/"
-              target="_blank"
-            >
-              <h3>To Do List App</h3>
-              <div class="content">
-                <p>A to-do-list app where you can set your priorities.</p>
-              </div>
-            </a>
-          </article>
 
-          <article class="style2">
-            <span class="image">
-              <img
-                class="max-height lazy-img"
-                src="images/pic02-lazy.jpg"
-                alt=""
-                data-src="images/pic02.png"
-              />
-            </span>
-            <a href="https://alberto-auth.netlify.app/" target="_blank">
-              <h3>Authentication</h3>
-              <div class="content">
-                <p>
-                  Demo website where I implemented authentication using the
-                  Firebase Auth REST API.
-                </p>
-              </div>
-            </a>
-          </article>
-
-          <article class="style3">
-            <span class="image">
-              <img
-                class="max-height lazy-img"
-                src="images/pic03-lazy.jpg"
-                alt=""
-                data-src="images/pic03.png"
-              />
-            </span>
-            <a href="https://quotes-6d9dc.firebaseapp.com/" target="_blank">
-              <h3>Quotes</h3>
-              <div class="content">
-                <p>Demo project, built using React Router.</p>
-              </div>
-            </a>
-          </article>
-
-          <article class="style4">
-            <span class="image">
-              <img
-                class="max-height lazy-img"
-                src="images/pic04-lazy.jpg"
-                alt=""
-                data-src="images/pic04.png"
-              />
-            </span>
-            <a href="https://alberto-meetup-app.vercel.app/" target="_blank">
-              <h3>Meetup App</h3>
-              <div class="content">
-                <p>Project where I focused on the core Next.js features.</p>
-              </div>
-            </a>
-          </article>
-
-          <article class="style5">
-            <span class="image">
-              <img
-                class="max-height lazy-img"
-                src="images/pic05-lazy.jpg"
-                alt=""
-                data-src="images/pic05.png"
-              />
-            </span>
-            <a
-              href="https://alberto-food-order-app.netlify.app/"
-              target="_blank"
-            >
-              <h3>Food Order App</h3>
-              <div class="content">
-                <p>
-                  Simple food order app, where you have a list of meals from
+        <div class="container">
+          <div class="project">
+            <div class="card tile">
+              <a
+                href="https://alberto-to-do-list-v2.netlify.app/"
+                target="_blank"
+                ><button class="btn-project">
+                  <img class="img-project" src="images/image7.png" alt="" />
+                  <div class="div-project">
+                    <h5 class="h5">To Do List App</h5>
+                    <p class="p">
+                      Inspired by the Eisenhower Matrix, I created this
+                      to-do-list app, where you can prioritize tasks by urgency
+                      and importance. I used basic React concepts such as
+                      components, props, JSX, events, state and rendering lists
+                      of data.
+                    </p>
+                  </div>
+                </button>
+                <div class="actions">
+                  <button class="btn2">
+                    <span class="span1-btn2">Live Demo</span>
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="card tile">
+              <a href="https://alberto-auth.netlify.app/" target="_blank"
+                ><button class="btn-project">
+                  <img class="img-project" src="images/image7.png" alt="" />
+                  <div class="div-project">
+                    <h5 class="h5">Authentication</h5>
+                    <p class="p">
+                      Demo website where I implemented authentication using the
+                      Firebase Auth REST API.
+                    </p>
+                  </div>
+                </button>
+                <div class="actions">
+                  <button class="btn2">
+                    <span class="span1-btn2">Live Demo</span>
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="card tile">
+              <a
+                href="https://quotes-6d9dc.firebaseapp.com/"
+                target="_blank"
+                ><button class="btn-project">
+                  <img class="img-project" src="images/image7.png" alt="" />
+                  <div class="div-project">
+                    <h5 class="h5">Quotes</h5>
+                    <p class="p">
+                      This is a demo project, built using React Router, with dynamic routes and nested routes. React Router allows you to build a single page application with the illusion of having multiple pages with different urls.
+                    </p>
+                  </div>
+                </button>
+                <div class="actions">
+                  <button class="btn2">
+                    <span class="span1-btn2">Live Demo</span>
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="card tile">
+              <a
+                href="https://alberto-meetup-app.vercel.app/"
+                target="_blank"
+                ><button class="btn-project">
+                  <img class="img-project" src="images/image7.png" alt="" />
+                  <div class="div-project">
+                    <h5 class="h5">Meetup App</h5>
+                    <p class="p">
+                      Project where I focused on the core Next.js features.
+                    </p>
+                  </div>
+                </button>
+                <div class="actions">
+                  <button class="btn2">
+                    <span class="span1-btn2">Live Demo</span>
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="card tile">
+              <a
+                href="https://alberto-food-order-app.netlify.app/"
+                target="_blank"
+                ><button class="btn-project">
+                  <img class="img-project" src="images/image7.png" alt="" />
+                  <div class="div-project">
+                    <h5 class="h5">Food Order App</h5>
+                    <p class="p">
+                      Simple food order app, where you have a list of meals from
                   which you can choose.
-                </p>
-              </div>
-            </a>
-          </article>
+                    </p>
+                  </div>
+                </button>
+                <div class="actions">
+                  <button class="btn2">
+                    <span class="span1-btn2">Live Demo</span>
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="project">
+            <div class="card tile">
+              <a
+                href="https://alberto-redux-cart.netlify.app/"
+                target="_blank"
+                ><button class="btn-project">
+                  <img class="img-project" src="images/image7.png" alt="" />
+                  <div class="div-project">
+                    <h5 class="h5">ReduxCart</h5>
+                    <p class="p">
+                      Project where I applied Redux to a React application.
+                    </p>
+                  </div>
+                </button>
+                <div class="actions">
+                  <button class="btn2">
+                    <span class="span1-btn2">Live Demo</span>
+                  </button>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
 
-          <article class="style6">
-            <span class="image">
-              <img
-                class="max-height lazy-img"
-                src="images/pic06-lazy.jpg"
-                alt=""
-                data-src="images/pic06.png"
-              />
-            </span>
-            <a href="https://alberto-redux-cart.netlify.app/" target="_blank">
-              <h3>ReduxCart</h3>
-              <div class="content">
-                <p>Project where I applied Redux to a React application.</p>
-              </div>
-            </a>
-          </article>
         </div>
         <div class="btn-margin">
           <a class="btn" href="#contact">Send me a message &DownArrow;</a>
         </div>
       </section>
 
-      <section id="contact" class="section">
+      <section id="contact">
         <h2>Contact</h2>
         <p class="paragraph -form">
           Need help with your project? <br />
           Tell me what you need and let's work together.
         </p>
-        <div id="contact-form">
+        <div class="contact-form card">
           <form
             action="/success"
             name="contact"
