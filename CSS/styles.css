@@ -322,6 +322,7 @@ nav ul li .btn {
 
 .paragraph-ch {
   max-width: 60ch;
+  padding: 0 2px;
 }
 
 .skills {
@@ -341,7 +342,7 @@ nav ul li .btn {
 
 @media screen and (max-width: 500px) {
   .ul {
-    margin: 30px 25px 20px;
+    margin: 10px 25px 20px;
     padding: 0;
   }
 }
@@ -578,7 +579,6 @@ label {
 @media screen and (max-width: 500px) {
   h2 {
     font-size: 35px;
-    min-height: 0;
   }
 
   h3 {
@@ -598,7 +598,15 @@ label {
     height: 170px;
   }
 
+  #about {
+    margin-bottom: 80px;
+  }
+
   #contact div {
     margin-bottom: 40px;
+  }
+
+  .profile-pic {
+    margin-top: 200px;
   }
 }
