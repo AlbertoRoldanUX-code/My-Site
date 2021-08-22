@@ -19,3 +19,5 @@ links.click(function () {
 
 //Makes year dynamic
 $('#year').html(new Date().getFullYear());
+
+///////////////////////////////
