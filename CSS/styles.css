@@ -512,10 +512,11 @@ nav ul li .btn {
   padding: 10px 2rem 80px;
 }
 
-/*****************FORM*****************/
+/*****************CONTACT*****************/
 #contact {
-  padding: 70px 2rem;
+  padding: 70px 2rem 130px;
 }
+
 .paragraph-form {
   padding: 30px auto 60px;
   max-width: 60ch;
