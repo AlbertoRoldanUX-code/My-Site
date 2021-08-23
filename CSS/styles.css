@@ -308,6 +308,7 @@ nav ul li .btn {
   flex-direction: column;
   justify-content: center;
   width: 100%;
+  padding: 100px 0;
 }
 
 .profile-pic {
