@@ -307,7 +307,6 @@ nav ul li .btn {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 200px 0;
   width: 100%;
 }
 
