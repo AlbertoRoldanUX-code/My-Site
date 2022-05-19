@@ -388,15 +388,6 @@ nav ul li .btn {
   cursor: pointer;
 }
 
-.img-project {
-  object-fit: cover;
-  display: block;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 140px;
-}
-
 .div-project {
   padding: 16px;
   text-align: left;
