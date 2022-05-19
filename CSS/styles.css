@@ -420,6 +420,7 @@ nav ul li .btn {
   }
   .card {
     margin: 1rem auto;
+    width: auto;
   }
 }
 
