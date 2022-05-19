@@ -382,11 +382,6 @@ nav ul li .btn {
   -webkit-tap-highlight-color: transparent;
   display: block;
 }
-.actions {
-  padding: 8px 16px;
-
-  cursor: pointer;
-}
 
 .div-project {
   padding: 16px;
@@ -409,62 +404,6 @@ nav ul li .btn {
   line-height: 1.43;
   letter-spacing: 0.01071em;
   margin: 0;
-}
-
-.btn2 {
-  margin-left: 8px;
-  font-size: 0.8125rem;
-  min-width: 64px;
-  box-sizing: border-box;
-  font-weight: 500;
-  line-height: 1.75;
-  letter-spacing: 0.02857em;
-  text-transform: uppercase;
-  color: inherit;
-  border: 0;
-  cursor: pointer;
-  margin: 0;
-  display: inline-flex;
-  outline: 0;
-  padding: 0;
-  position: relative;
-  align-items: center;
-  user-select: none;
-  border-radius: 0;
-  vertical-align: middle;
-  justify-content: center;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.span1-btn2 {
-  width: 100%;
-  color: #3f51b5;
-  font-size: 0.875rem;
-  min-width: 64px;
-  box-sizing: border-box;
-  font-weight: 500;
-  line-height: 1.75;
-  letter-spacing: 0.02857em;
-  text-transform: uppercase;
-  border: 0;
-  cursor: pointer;
-  margin: 0;
-  display: inline-flex;
-  outline: 0;
-  padding: 0;
-  position: relative;
-  align-items: center;
-  user-select: none;
-  border-radius: 0;
-  vertical-align: middle;
-  justify-content: center;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
 }
 
 @media screen and (max-width: 800px) {
