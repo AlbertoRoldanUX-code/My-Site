@@ -323,21 +323,6 @@ nav ul li .btn {
   padding: 0 2px;
 }
 
-.skills {
-  display: flex;
-}
-
-.ul {
-  list-style-type: none;
-  text-align: left;
-  padding: 0;
-  margin: 0 60px;
-}
-.ul li {
-  font-size: 18px;
-  margin: 8px 0;
-}
-
 @media screen and (max-width: 500px) {
   .ul {
     margin: 10px 25px 20px;
