@@ -330,7 +330,7 @@ nav ul li .btn {
   }
 }
 
-/*****************PORTFOLIO*****************/
+/*****************SKILLS*****************/
 .container {
   justify-content: center;
   width: 100%;
@@ -491,7 +491,7 @@ nav ul li .btn {
   }
 }
 
-#portfolio {
+#skills {
   max-width: 1280px;
   margin: auto;
   padding: 70px 2rem 80px;
