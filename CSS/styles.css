@@ -1,6 +1,7 @@
 h1 {
   max-width: 90%;
   font-size: 36px;
+  color: white;
 }
 
 a {
@@ -300,10 +301,6 @@ nav ul li .btn {
   color: #11cdd4;
 }
 
-.heading {
-  color: white;
-}
-
 /*****************ABOUT SECTION*****************/
 #about {
   align-items: center;
@@ -496,17 +493,17 @@ label {
 
 /*****************RESPONSIVENESS*****************/
 @media screen and (max-width: 500px) {
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
   h2 {
-    font-size: 35px;
+    font-size: 34px;
   }
 
   h3 {
     font-size: 25px;
-  }
-
-  .heading {
-    font-size: 25px;
-    margin: 0 0 20px 0;
   }
 
   .footer-link {
