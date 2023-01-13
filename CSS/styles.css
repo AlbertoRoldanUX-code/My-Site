@@ -517,4 +517,8 @@ label {
   #contact div {
     margin-bottom: 40px;
   }
+
+  .paragraph-ch {
+    text-align: justify;
+  }
 }
