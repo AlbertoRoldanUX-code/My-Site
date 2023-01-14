@@ -310,6 +310,7 @@ nav ul li .btn {
   width: 100%;
   padding: 100px 0 20px;
   max-width: 750px;
+  margin: 0 auto;
 }
 
 .profile-pic {
