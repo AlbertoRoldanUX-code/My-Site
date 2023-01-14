@@ -321,7 +321,7 @@ nav ul li .btn {
 .paragraph-ch {
   max-width: 60ch;
   padding: 0 2px;
-  text-align: left;
+  text-align: justify;
 }
 
 @media screen and (max-width: 500px) {
@@ -519,7 +519,6 @@ label {
   }
 
   .paragraph-ch {
-    text-align: justify;
     margin: 10px 0;
     padding: 0 15px;
   }
