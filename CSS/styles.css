@@ -517,6 +517,10 @@ label {
     height: 170px;
   }
 
+  .tile {
+    height: 224px;
+  }
+
   #contact div {
     margin-bottom: 40px;
   }
