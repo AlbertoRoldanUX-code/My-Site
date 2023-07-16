@@ -332,6 +332,38 @@ nav ul li .btn {
   }
 }
 
+/*****************CURRENT TECH STACK*****************/
+
+#tech-stack {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding: 100px 0 20px;
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+#tech-stack h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 0.83em;
+  font-size: 30px;
+}
+
+#tech-stack ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+#tech-stack ul li {
+  padding: 0.5em;
+  font-size: 1.2rem;
+  color: #40514e;
+}
+
 /*****************SKILLS*****************/
 .container {
   justify-content: center;
