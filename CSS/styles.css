@@ -41,11 +41,6 @@ h3 {
   font-weight: normal;
 }
 
-h4 {
-  font-size: 1rem;
-  padding-bottom: 15px;
-}
-
 img {
   width: 100%;
 }
@@ -64,12 +59,6 @@ button {
   font-weight: bold;
 }
 
-hr {
-  border: dotted #eaf6f6 6px;
-  border-bottom: none;
-  border-top-style: dotted;
-  width: 4%;
-}
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -111,10 +100,6 @@ hr {
   -moz-border-radius: 8px;
   border-radius: 8px;
   text-decoration: none;
-}
-
-.btn-margin {
-  margin-top: 60px;
 }
 
 /* **********NAV BAR*********** */
@@ -297,10 +282,6 @@ nav ul li .btn {
   height: 100vh;
 }
 
-.highlight {
-  color: #11cdd4;
-}
-
 /*****************ABOUT SECTION*****************/
 #about {
   align-items: center;
@@ -364,31 +345,6 @@ nav ul li .btn {
   color: #40514e;
 }
 
-/*****************SKILLS*****************/
-.container {
-  justify-content: center;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  box-sizing: border-box;
-}
-
-.project {
-  flex-grow: 0;
-  max-width: 100%;
-  box-sizing: border-box;
-  margin: 0 1.25em 0 1.25em;
-}
-
-.tile {
-  width: 345px;
-  height: 191px;
-}
-
-.tile:hover {
-  background-color: #e5ffff;
-}
-
 .card {
   margin: 3rem auto;
   overflow: hidden;
@@ -400,69 +356,11 @@ nav ul li .btn {
   box-sizing: inherit;
 }
 
-.btn-project {
-  width: 100%;
-  text-align: inherit;
-  color: inherit;
-  border: 0;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  position: relative;
-  align-items: center;
-  user-select: none;
-  border-radius: 0;
-  justify-content: center;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-appearance: none;
-  -webkit-tap-highlight-color: transparent;
-  display: block;
-}
-
-.div-project {
-  padding: 16px;
-  text-align: left;
-}
-
-.h5 {
-  margin: 0 0 0.35em;
-  font-size: 1.5rem;
-  font-weight: 400;
-  line-height: 1.334;
-  letter-spacing: 0em;
-  color: #000000;
-}
-
-.p {
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 0.875rem;
-  font-weight: 400;
-  line-height: 1.43;
-  letter-spacing: 0.01071em;
-  margin: 0;
-}
-
-@media screen and (max-width: 800px) {
-  .project {
-    margin: 0 2.5em 0 2.5em;
-  }
-}
 @media screen and (max-width: 480px) {
-  .project {
-    width: 100%;
-    margin: 1.25em 0 0 0;
-  }
   .card {
     margin: 1rem auto;
     width: auto;
   }
-}
-
-#skills {
-  max-width: 1280px;
-  margin: auto;
-  padding: 70px 2rem 80px;
 }
 
 /*****************CONTACT*****************/
@@ -542,14 +440,6 @@ label {
 
   .footer-link {
     display: inline-block;
-  }
-
-  .image {
-    height: 170px;
-  }
-
-  .tile {
-    height: 224px;
   }
 
   #contact div {
